@@ -13,7 +13,7 @@
 * [Inits](basics/init.md)
 * [Enums](basics/enums.md)
 * [Control Flow](basics/ControlFlow.md)
-* [For Each](bbasics/ForEach.md)
+* [For Each](basics/ForEach.md)
 
 
 
