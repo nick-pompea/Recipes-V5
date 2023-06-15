@@ -1,4 +1,4 @@
-
+```swift
 RoundedRectangle(cornerRadius: 25)
                 .fill(
                     LinearGradient(
@@ -34,3 +34,4 @@ RoundedRectangle(cornerRadius: 25)
                 angle: .degrees(180+45)
             )
             .frame(width: 300, height: 200)
+'''
