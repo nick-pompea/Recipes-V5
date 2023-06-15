@@ -115,3 +115,45 @@ With Increment
 [Youtube Tutorial](https://www.youtube.com/watch?v=T7inPesyOY8&t=0s)
 
 ---
+
+## Slider
+
+
+```swift
+      @State var steperValue: Int = 10
+
+     Stepper("Stepper: \(steperValue)", value: $steperValue)
+
+```
+
+With Increment
+```swift
+    @State var value: Double = 3
+
+            Slider(
+                value: $value,
+                in: 1...10,
+                step: 1.0,
+                onEditingChanged:
+                    { (_) in
+                        color = .green
+                    },
+                minimumValueLabel: Text("1"),
+                maximumValueLabel: Text("10"),
+                label: {
+                    Text("Title")
+                }
+                
+            )
+```
+
+Modifiers
+```swift
+.accentColor(Color(#colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1)))
+```
+
+[Youtube Tutorial](https://www.youtube.com/watch?v=HwqxgiKQ_E4&t=0s)
+
+---
+
+
