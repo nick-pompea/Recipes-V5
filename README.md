@@ -17,6 +17,7 @@
 * [Scrolling](basics/Scroll.md)
 * [Grids](basics/Grids.md)
 * [Buttons](basics/Buttons.md)
+* [Views](basics/Views.md)
 
 
 
