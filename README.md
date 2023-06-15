@@ -21,6 +21,7 @@
 * [Animations](basics/Animations.md)
 * [Transitions](basics/Transition.md)
 * [Sheets](basics/Sheets.md)
+* [Navigation](basics/Navigation.md)
 
 
 
