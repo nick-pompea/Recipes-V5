@@ -2,4 +2,4 @@
 Swift Notes
 
 
-[this text](nick-pompea/Recipes-V5/basic/Arrays.md)
+[this text](Recipes-V5/basic/Arrays.md)
