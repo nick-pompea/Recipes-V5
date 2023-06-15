@@ -68,4 +68,50 @@ Modifiers
 [Youtube Tutorial](https://www.youtube.com/watch?v=nUlY2RYHV9U&t=0s)
 
 
+---
+## Date Picker
 
+
+```swift
+    @State var selectaDate: Date = Date()
+    
+    DatePicker("Select a Date", selection: $selectaDate, in: startingDate...endingDate)
+
+```
+
+Styles
+```swift
+           GraphicalDatePickerStyle()
+           WheelDatePickerStyle()
+           DefaultDatePickerStyle()
+```
+
+[Youtube Tutorial](https://www.youtube.com/watch?v=EnNAQ-b1yPU&t=0s)
+
+---
+
+
+## Stepper
+
+
+```swift
+      @State var steperValue: Int = 10
+
+     Stepper("Stepper: \(steperValue)", value: $steperValue)
+
+```
+
+With Increment
+```swift
+    @State var withIncrement: CGFloat = 0
+
+            Stepper("Stepper 2: \(steperValue)"){
+                withIncrement += 25
+            } onDecrement: {
+                withIncrement += -25
+            }
+```
+
+[Youtube Tutorial](https://www.youtube.com/watch?v=T7inPesyOY8&t=0s)
+
+---
