@@ -8,6 +8,7 @@
 * [Images](basics/Images.md)
 * [Tap Gesture](basics/Tap_Gesture.md)
 * [Property Wrappers](basics/PropertyWrappers.md)
+* [VStack Stack Stack](basics/VStack__HStack__and_ZStack.md)
 
 
 
