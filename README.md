@@ -23,6 +23,7 @@
 * [Sheets](basics/Sheets.md)
 * [Navigation](basics/Navigation.md)
 * [Lists](basics/Lists.md)
+* [Alerts](basics/Alerts.md)
 
 
 
