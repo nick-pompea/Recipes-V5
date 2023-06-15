@@ -3,3 +3,4 @@ Swift Notes
 
 
 [this text](main/basics/Arrays.md)
+[Arrays](basics/Arrays)
