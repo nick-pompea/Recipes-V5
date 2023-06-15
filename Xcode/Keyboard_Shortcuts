@@ -1,1 +1,17 @@
 
+
+                Text("Command + SHIFT + L = Fomula Fecepies")
+                Text("Command + N = New page")
+                Text("Option + Click on value = Quick Summary")
+                Text("Command + Click on value = Quick Addition")
+                Text("Command + / = Comment out selected section")
+                Text("Command + click = embed menue")
+                Text("Controle + Command + Space = Emojis")
+                Text("Command -> Insector = List of modifiers")
+   
+                Text("Option + Command + left arrow = Fold")
+                
+                Text("Command + Click on function -> Add documantion")
+                Text("Controle + Command + Space = Emoji 😶")
+                Text("Command + Shift + K = Clean and rebuild")
+                Text("Option + Command + P = Restart Canvis")
