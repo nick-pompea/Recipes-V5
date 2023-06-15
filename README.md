@@ -3,3 +3,6 @@
 
 
 * [Arrays](basics/Arrays)
+* [Text](basics/Text)
+
+
