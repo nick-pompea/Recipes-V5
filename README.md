@@ -3,7 +3,7 @@
 
 
 * [Arrays](basics/Arrays)
-* [Text](basics/Text)
+* [Text](basics/Text.md)
 * [Gradients](basics/Gradients)
 * [Images](basics/Images)
 
