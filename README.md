@@ -19,6 +19,7 @@
 * [Buttons](basics/Buttons.md)
 * [Views](basics/Views.md)
 * [Animations](basics/Animations.md)
+* [Transitions](basics/Transition.md)
 
 
 
