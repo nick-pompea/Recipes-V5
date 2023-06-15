@@ -8,6 +8,16 @@ GridItem(.fixed(75))
 GridItem(.adaptive(minimum: 150, maximum: 300))
 ```
 
+Grids
+```swift
+ Grid(alignment: .leading){
+ 
+GridRow {
+
+}
+}
+```
+
 Can be used in an array
 
 flexible
@@ -145,8 +155,57 @@ struct Grids_Previews: PreviewProvider {
 }
 
 ```
+## Modifiers
+
+
+```swift
+.gridCellColumns(2)
+.gridCellAnchor(.bottom)
+                                
+Divider()
+.gridCellUnsizedAxes([.horizontal])
+
+```
+Examples
+```swift
+.gridCellColumns(2)
+.gridCellAnchor(.bottom)
+                                
+Divider()
+.gridCellUnsizedAxes([.horizontal])
+
+```
+
+```swift
+
+         Grid() {
+                        GridRow(alignment: .top) {
+                            Square(width: 110)
+                                .gridCellColumns(2)
+                            Square(width: 50)
+                            Square(width: 50)
+                                .gridCellAnchor(.bottom)
+                        }
+                        GridRow {
+                            Square(width: 50)
+                            Square(width: 50)
+                            Square(width: 50)
+                                .gridCellAnchor(.trailing)
+                                .gridCellColumns(2)
+                        }
+                       
+                            Divider()
+                                .gridCellUnsizedAxes([.horizontal])
+                        
+                    }
+```
 
 
 
+Swiftui Thinking
 [Youtube Tutorial](https://www.youtube.com/watch?v=vHvb7LH8VuE&t=0s)
+
+StewartLynch
+[Youtube Tutorial](https://youTube.com/StewartLynch
+//https://www.youtube.com/watch?v=ZU_6RejjIKU&t=0s)
 
