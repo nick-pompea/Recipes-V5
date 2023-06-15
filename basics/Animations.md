@@ -7,6 +7,16 @@ withAnimation(Animation
 .default
 isAnimated.toggle()
 }
+```
+
+Modifier
+```swift
+.animation(.spring(
+response: 0.5,
+dampingFraction: 0.7,
+blendDuration: 1.0)
+)
+}
 
 
 ```
