@@ -5,7 +5,7 @@
 * [Arrays](basics/Arrays)
 * [Text](basics/Text.md)
 * [Gradients](basics/Gradients.md)
-* [Images](basics/Images)
+* [Images](basics/Images.md)
 
 
 <h2> XCode </h2>
