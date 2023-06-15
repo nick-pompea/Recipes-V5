@@ -4,7 +4,7 @@
 
 * [Arrays](basics/Arrays)
 * [Text](basics/Text.md)
-* [Gradients](basics/Gradients)
+* [Gradients](basics/Gradients.md)
 * [Images](basics/Images)
 
 
