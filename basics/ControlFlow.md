@@ -28,4 +28,15 @@ Color(isLoading ? Color.black : Color.red)
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=xzFSOdpxy-o&t=0s)
 
+Guard
+* https://www.programiz.com/swift-programming/guard-statement
+```swift
+guard expression else {
+  // statements
+  // control statement: return, break, continue or throw.
+}
+```
+
+
+
 Switch
