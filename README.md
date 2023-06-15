@@ -22,6 +22,7 @@
 * [Transitions](basics/Transition.md)
 * [Sheets](basics/Sheets.md)
 * [Navigation](basics/Navigation.md)
+* [Lists](basics/Lists.md)
 
 
 
