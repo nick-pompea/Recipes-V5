@@ -26,5 +26,16 @@ Spacer()
 Spacer(20)
 
 ```
-
 [Youtube Tutorial](https://www.youtube.com/watch?v=cL23Wx-zbJU)
+
+
+Safe Area
+```swift
+.ignoresSafeArea(.all)
+.ignoresSafeArea(edges: .bottom)
+.ignoresSafeArea()
+
+```
+[Youtube Tutorial](https://www.youtube.com/watch?v=_0NDKxvfg40&t=0s)
+
+
