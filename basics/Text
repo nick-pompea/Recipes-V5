@@ -10,3 +10,8 @@ Text("Hello")
 * Item 3
   * Sub Item A
   * Sub Item B
+
+
+```swift
+Text("Hello")
+```
