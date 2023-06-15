@@ -65,3 +65,4 @@ struct AnimationsView_Previews: PreviewProvider {
 
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=0WY-wrW2_bs&t=0s)
+[Youtube Tutorial](https://www.youtube.com/watch?v=0H4G3lGnJE0&t=0s)
