@@ -6,6 +6,9 @@
 * [Text](basics/Text.md)
 * [Gradients](basics/Gradients.md)
 * [Images](basics/Images.md)
+* [Tap Gesture](basics/Tap_Gesture.md)
+
+
 
 
 <h2> XCode </h2>
