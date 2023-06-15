@@ -40,3 +40,14 @@ guard expression else {
 
 
 Switch
+```swift
+        switch alertsEnum{
+        case .error:
+            return Alert(title: Text("There was an error"))
+        case .success:
+            return Alert(title: Text("Success"))
+        default:
+            return Alert(title: Text("Error"))
+        }
+```
+
