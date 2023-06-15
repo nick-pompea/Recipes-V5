@@ -7,7 +7,7 @@
 * [Gradients](basics/Gradients.md)
 * [Images](basics/Images.md)
 * [Tap Gesture](basics/Tap_Gesture.md)
-
+* [Property Wrappers](basics/PropertyWrappers.md)
 
 
 
