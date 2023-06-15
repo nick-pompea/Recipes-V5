@@ -9,6 +9,7 @@
 * [Tap Gesture](basics/Tap_Gesture.md)
 * [Property Wrappers](basics/PropertyWrappers.md)
 * [Stacks](basics/VStack__HStack__and_ZStack.md)
+* [Positioning](basics/Positioning.md)
 
 
 
