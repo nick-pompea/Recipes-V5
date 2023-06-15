@@ -50,3 +50,22 @@ Modifiers
 ```
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=2pSDE56u2F0&t=0s)
+
+---
+
+
+## Color Picker
+
+
+```swift
+    @State var color: Color = .green
+
+            ColorPicker("Select a color",
+                        selection: $color,
+                        supportsOpacity: true
+                        )
+```
+[Youtube Tutorial](https://www.youtube.com/watch?v=nUlY2RYHV9U&t=0s)
+
+
+
