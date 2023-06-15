@@ -39,4 +39,4 @@ RoundedRectangle(cornerRadius: 25)
 
 
 
-[Youtube Tutorial]([https://youtu.be/kTARSJSNGPI](https://www.youtube.com/watch?v=EPoxQHwVnj0))
+[Youtube Tutorial]((https://www.youtube.com/watch?v=EPoxQHwVnj0)
