@@ -10,6 +10,7 @@
 * [Property Wrappers](basics/PropertyWrappers.md)
 * [Stacks](basics/VStack__HStack__and_ZStack.md)
 * [Positioning](basics/Positioning.md)
+* [Inits](basics/init.md)
 
 
 
