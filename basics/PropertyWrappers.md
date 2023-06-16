@@ -64,3 +64,49 @@ Can add an automatic ID with UUID() or UUID().uuidString
 struct fuitModel: Identifiable {
     let id: String = UUID().uuidString
 ```
+
+
+---
+
+
+## Environment Object 
+ 
+* Allows access of an item from all parts of a project. 
+* Placed in @ Main and refrecned as needed in each view or class
+* Commonly a class
+
+Setup
+* 1 - Make Class
+```swift
+class Model: ObservableObject {
+}
+```
+* 2 - Place reference in @ main
+```swift
+@main
+struct Recepies_v2App: App {
+    
+   @StateObject var Model: Model = Model()
+    
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+           .environmentObject(Model)
+        }
+    }
+}
+```
+* 3 - Pull from environment as needed
+```swift
+    @StateObject var viewModel: Model = Model()
+```
+* 4 - Update preview ( Or else XCode will crash) 
+```swift
+    struct EnvironmentObjectView_Previews: PreviewProvider {
+    static var previews: some View {
+       View()
+         .environmentObject(Model())
+    }
+}
+```
+
