@@ -131,4 +131,24 @@ currentUserName = name
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=zyuSUrfelw8&t=0s)
 
+---
+
+## Hashable
+
+* Like Identifiable but you can make your own custom reference
+* 
+struct
+```swift
+struct model: Hashable {
+    let title: String
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(title)
+    }
+    
+}
+
+
+```
+[Youtube Tutorial](https://www.youtube.com/watch?v=Oxc4dCtHPkk&t=0s)
 
