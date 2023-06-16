@@ -66,3 +66,60 @@ struct AnimationsView_Previews: PreviewProvider {
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=0WY-wrW2_bs&t=0s)
 [Youtube Tutorial](https://www.youtube.com/watch?v=0H4G3lGnJE0&t=0s)
+
+
+---
+
+## MatchedGeometry Effect 
+
+Modifiers
+```swift
+@Namespace private var animation
+//
+ .matchedGeometryEffect(id: "text", in: animation)
+```
+
+Example
+```swift
+import SwiftUI
+
+struct matchedGeometryEffectView: View {
+    @Namespace private var animation
+    @State private var isFlipped = false
+    var body: some View {
+        VStack{
+            if isFlipped {
+                Circle()
+                    .fill(Color.red)
+                    .frame(width: 44, height: 44)
+                    .matchedGeometryEffect(id: "Shape", in: animation)
+                Text("Hello, World!")
+                    .font(.headline)
+                    .matchedGeometryEffect(id: "text", in: animation)
+            } else {
+                Text("Hello, World!")
+                    .matchedGeometryEffect(id: "text", in: animation)
+                Circle()
+                    .fill(Color.red)
+                    .frame(width: 44, height: 44)
+                    .matchedGeometryEffect(id: "Shape", in: animation)
+            }
+        }
+        .onTapGesture {
+            withAnimation {
+                isFlipped.toggle()
+
+            }
+        }
+    }
+}
+
+struct matchedGeometryEffectView_Previews: PreviewProvider {
+    static var previews: some View {
+        matchedGeometryEffectView()
+    }
+}
+```
+
+[Youtube Tutorial](https://www.youtube.com/watch?v=x7fdvXdVd98)
+
