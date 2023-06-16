@@ -25,3 +25,22 @@
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=RkfJoNzfJ8w&t=0s)
 
+## Rotation
+* Modifier
+```swift
+            Rectangle()
+            .rotationEffect(angle)
+//
+            .gesture(
+                RotationGesture()
+                    .onChanged { value in
+                        angle = value
+                    }
+                    .onEnded({ value in
+                        withAnimation(.spring()){
+                            angle = Angle(degrees: 0)
+                        }
+                    })
+            )
+```
+[Youtube Tutorial](https://www.youtube.com/watch?v=RkfJoNzfJ8w&t=0s)
