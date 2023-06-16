@@ -26,9 +26,13 @@
 * [Alerts](basics/Alerts.md)
 * [InputUI](basics/InputUI.md)
 * [Tabs](basics/Tabs.md)
+* [Long Press Gesture](basics/Gesture.md)
 
 
 basics/Colors.md
+
+
+
 
 <h2> XCode </h2>
   
