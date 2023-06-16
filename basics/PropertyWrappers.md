@@ -109,4 +109,26 @@ struct Recepies_v2App: App {
     }
 }
 ```
+[Youtube Tutorial](https://www.youtube.com/watch?v=VWZ-h_N1wDk&t=0s)
+
+
+---
+
+## @AppStorage
+
+* Persistence storage of small amount of information 
+* Like UserDefaults but less work 
+
+Setup
+* 1 - Declaration 
+```swift
+  @AppStorage("name") var currentUserName: String?
+```
+
+* 2 - Use like normal var
+```swift
+currentUserName = name
+```
+[Youtube Tutorial](https://www.youtube.com/watch?v=zyuSUrfelw8&t=0s)
+
 
