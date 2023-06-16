@@ -34,3 +34,17 @@ TextEditor(text: $textEditorText)
 
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=NiiYeoFYiXQ&t=0s)
+
+---
+
+## Basic Styling
+
+```swift
+ "**Bold**"
+ "_Italic_"
+ "Base\(StringInterpolation)"
+ """
+ Multiple
+ Lines
+ """
+```
