@@ -3,12 +3,12 @@
 if 
 ```swift
 @State var isLoading: Bool = false
-
+---
 if isLoading {
 ProgressView()
 }
 ```
-
+---
 if else
 ```swift
 @State var isLoading: Bool = false
@@ -21,6 +21,7 @@ MainView()
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=W8sGT16WAkQ&t=0s)
 
+---
 
 Ternary Operator
 ```swift
@@ -30,14 +31,13 @@ Color(isLoading ? Color.black : Color.red)
 
 Guard
 * https://www.programiz.com/swift-programming/guard-statement
-
 ```swift
 guard expression else {
   // statements
   // control statement: return, break, continue or throw.
 }
 ```
-
+---
 Guard Let
 ```swift
     func loadDataTwo() {
@@ -54,14 +54,14 @@ Guard Let
 ```
 * [Youtube Tutorial](https://www.youtube.com/watch?v=wmQIl0O9HBY&t=0s)
 
-
+---
 if let
 ```swift
 if let text = displayText {
 Text(text)
 }
 ```
-
+---
 
 Switch
 ```swift
@@ -74,4 +74,35 @@ Switch
             return Alert(title: Text("Error"))
         }
 ```
+---
+do catch
+```swift
+do {
+        // Code
+        } catch {
+        // Error
+}
+```
+do try catch
+* Example
+```swift
+        do {
+            let NewTitle = try? manager.getTitleThree()
+            if let NewTitle = NewTitle {
+                self.text = NewTitle
+            }
+            let finalTitle = try manager.getTitleFour()
+            self.text = finalTitle
+
+        } catch {
+            self.text = error.localizedDescription
+        }
+}
+
+```
+[Youtube Tutorial](https://www.youtube.com/watch?v=ss50RX7F7nE)
+---
+
+
+
 
