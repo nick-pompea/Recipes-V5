@@ -25,6 +25,7 @@
 * [Lists](basics/Lists.md)
 * [Alerts](basics/Alerts.md)
 * [InputUI](basics/InputUI.md)
+* [Tabs](basics/Tabs.md)
 
 
 
