@@ -32,7 +32,7 @@
 <h2> XCode </h2>
   
   * [Keyboard Short Cuts](Xcode/Keyboard_Shortcuts.md)
-  * [Keyboard Short Cuts](Organization/MMVM.md)
+  * [MMVM](Organization/MMVM.md)
 
   
   
