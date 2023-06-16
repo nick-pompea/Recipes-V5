@@ -18,6 +18,29 @@
                 Text("Profile")
             }.tag(2)
         }
+        
+        // For loop
+        
+                TabView{
+            ForEach(icons, id: \.self) {i in
+                Image(systemName: i)
+                    .resizable()
+                    .scaledToFit()
+                    .padding(30)
+            }
+        }
+        
+        
+
+
+```
+
+
+
+Modifiers
+```swift
+        .tabViewStyle(PageTabViewStyle())
+
 
 
 ```
