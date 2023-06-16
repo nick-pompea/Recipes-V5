@@ -2,7 +2,7 @@
 # Asynchronous Timeing 
 
 
-Delay
+## Delay
 ```swift
 DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                 
@@ -105,3 +105,20 @@ struct Multi_threadingView_Previews: PreviewProvider {
 
 
 ```
+---
+
+## Weak Self
+
+Example
+```swift
+    func getData() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 500) { [weak self] in
+            self?.data = "New data"
+        }
+    }
+  ```
+    
+[Youtube Tutorial](https://www.youtube.com/watch?v=TPHp9kR0Go8&t=0s)
+
+
+
