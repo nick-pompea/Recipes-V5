@@ -57,6 +57,57 @@ class DownloadWithEscapingViewModel: ObservableObject {
     }
 }
 ```
+
+* Example Combine Model
+```swift
+import Combine
+
+* [Youtube Tutorial](https://www.youtube.com/watch?v=fdxFp5vU6MQ&t=0s)
+
+//
+class DownloadWithCombineViewModel: ObservableObject {
+    
+    @Published var posts: [PostModelAPICombine] = []
+    var cancelable = Set<AnyCancellable>()
+    
+    init() {
+        getPosts()
+    }
+    
+    func getPosts() {
+        
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
+        
+        URLSession.shared.dataTaskPublisher(for: url)
+           // .subscribe(on: DispatchQueue.global(qos: .background))
+            .receive(on: DispatchQueue.main)
+            .tryMap(handleOutput)
+            .decode(type: [PostModelAPICombine].self, decoder: JSONDecoder())
+            .sink { (completion) in
+                switch completion {
+                case.finished:
+                    print ("Finished")
+                case.failure(let error):
+                    print("error \(error)")
+                }
+                print("completion \(completion)")
+            } receiveValue: { [weak self] (returnedPosts) in
+                self?.posts = returnedPosts
+            }
+            .store(in: &cancelable)
+    }
+    
+    func handleOutput(output: URLSession.DataTaskPublisher.Output) throws -> Data {
+        guard
+            let response = output.response as? HTTPURLResponse,
+            response.statusCode >= 200 && response.statusCode < 300 else {
+            throw URLError(.badServerResponse)
+        }
+        return output.data
+    }
+}
+```
+
 * View Example
 ```swift
 struct Download_JSON_from_API: View {
