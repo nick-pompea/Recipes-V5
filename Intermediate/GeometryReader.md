@@ -1,6 +1,7 @@
 
 # Geometry Reader
 
+Example
 ```swift
 import SwiftUI
 
@@ -35,6 +36,22 @@ struct GeometryReaderView_Previews: PreviewProvider {
     }
 }
 
+```
+
+Background color example
+```swift
+        GeometryReader { geo in
+            HStack(spacing: 0){
+                Rectangle()
+                    .fill(Color.red)
+                    .frame(width: geo.size.width * 0.6666)
+                Rectangle()
+                    .fill(Color.blue)
+
+            }
+        }
+
+        .ignoresSafeArea()
 
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=lMteVjlOIbM&t=0s)
