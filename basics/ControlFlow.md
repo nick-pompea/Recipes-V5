@@ -30,6 +30,7 @@ Color(isLoading ? Color.black : Color.red)
 
 Guard
 * https://www.programiz.com/swift-programming/guard-statement
+
 ```swift
 guard expression else {
   // statements
@@ -37,6 +38,29 @@ guard expression else {
 }
 ```
 
+Guard Let
+```swift
+    func loadDataTwo() {
+        guard let userID = currentUserID else {
+            displayText = "Error no user ID"
+            return
+        }
+        isLoading = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            displayText = "This is the new data, User ID is: \(userID)"
+            isLoading = false
+        }
+    }
+```
+* [Youtube Tutorial](https://www.youtube.com/watch?v=wmQIl0O9HBY&t=0s)
+
+
+if let
+```swift
+if let text = displayText {
+Text(text)
+}
+```
 
 
 Switch
