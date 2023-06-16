@@ -1,5 +1,11 @@
 # Markups
 
+Comment
+```swift
+//
+```
+
+
 Multi line comment
 ```swift
   // Nicholas - Working copy - things to do:
