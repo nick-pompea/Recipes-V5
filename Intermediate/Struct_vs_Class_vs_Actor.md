@@ -22,7 +22,7 @@
 
  
  Stack
- * stores value tupes
+ * stores value types 
  * each thread has its own stack
  * variables are stored directly to memory
  
