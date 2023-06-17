@@ -1,16 +1,23 @@
 
 # Asynchronous Timeing 
 
-
+<details>
+  <summary>Delay</summary>
+  
 ## Delay
 ```swift
 DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                 
 }
-
-
 ```
+</details>
+
 ---
+
+
+<details>
+  <summary>Multi Threading</summary>
+  
 
 ## Multi Threading
 
@@ -101,12 +108,15 @@ struct Multi_threadingView_Previews: PreviewProvider {
         Multi_threadingView()
     }
 }
-[Youtube Tutorial](https://www.youtube.com/watch?v=jEpg2SYvVV8&t=0s)
-
-
 ```
+[Youtube Tutorial](https://www.youtube.com/watch?v=jEpg2SYvVV8&t=0s)
+</details>
+
 ---
 
+<details>
+  <summary>Weak Self</summary>
+  
 ## Weak Self
 
 Example
@@ -119,8 +129,13 @@ Example
   ```
     
 [Youtube Tutorial](https://www.youtube.com/watch?v=TPHp9kR0Go8&t=0s)
+</details>
 
 ---
+
+<details>
+  <summary>Fetch</summary>
+  
 ## Fetch
 
 Example
@@ -222,9 +237,13 @@ struct UsingTask_Previews: PreviewProvider {
   ```
     
 [Youtube Tutorial](https://www.youtube.com/watch?v=fTtaEYo14jI&t=0s)
+</details>
 
 ---
 
+<details>
+  <summary>Async Let</summary>
+  
 ## Async Let
 
 Example
@@ -306,9 +325,12 @@ struct Async_Let_Previews: PreviewProvider {
 
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=1OmJJwVF7uQ&t=0s/)
+</details>
 
 ---
-
+<details>
+  <summary>Task Group </summary>
+  
 ## Task Group 
 
 ```swift
@@ -419,9 +441,12 @@ struct TaskGroupView_Previews: PreviewProvider {
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=epBbbysk5cU&t=0s)
 
+</details>
 
 ---
-
+<details>
+  <summary>Continuations</summary>
+  
 ## Continuations
 * Example
 ```swift
@@ -531,4 +556,5 @@ struct ContinuationsView_Previews: PreviewProvider {
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=Tw_WLMIfEPQ)
 
+</details>
 
