@@ -122,6 +122,10 @@ TextEditor(text: $textEditorText)
                     .underline(color: .red)
                 Text("Strikethrouhg Color")
                     .strikethrough(color: .green)
+
+
+                    Text("This is the first line.\nThis is the second line.")
+
    ```
 
 ---
