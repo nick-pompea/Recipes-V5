@@ -39,3 +39,9 @@ VStack(alignment: .center, spacing:  8, content: {
 <#code#>
 }
 ```
+
+
+# Center items
+```swift
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+```
