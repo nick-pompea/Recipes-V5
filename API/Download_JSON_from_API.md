@@ -59,10 +59,12 @@ class DownloadWithEscapingViewModel: ObservableObject {
 ```
 
 * Example Combine Model
+
+* * [Youtube Tutorial](https://www.youtube.com/watch?v=fdxFp5vU6MQ&t=0s)
+
 ```swift
 import Combine
 
-* [Youtube Tutorial](https://www.youtube.com/watch?v=fdxFp5vU6MQ&t=0s)
 
 //
 class DownloadWithCombineViewModel: ObservableObject {
