@@ -16,3 +16,4 @@
 * Command + Shift + K = Clean and rebuild
 * Option + Command + P = Restart Canvas
 * Command + SHIFT + L = Fomula Recepies
+* Window ( or Command ) + [ = Adjust indent 
