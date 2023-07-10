@@ -56,14 +56,14 @@
   ## Intermediate
   
   * [Heap Vs Stack](Intermediate/Struct_vs_Class_vs_Actor.md)
-* [@Escaping](Intermediate/@Escaping.md)
+* [@Escaping](Intermediate/Escaping.md)
 * [Asynchronous Timing](Intermediate/AsynchronousTiming.md)
 * [Geometry Reader](Intermediate/GeometryReader.md)
 * [Local File Manager](Intermediate/LocalFileManager.md)
 * [Publishers and Subscribers](Intermediate/Publishers_and_Subscribers.md)
 * [Timer and onReceive](Intermediate/Timer_and_onReceive.md)
 * [Catche](Intermediate/Catche.md)
-* [Escaping](Intermediate/@Escaping.md)
+
 
 
 </details>
