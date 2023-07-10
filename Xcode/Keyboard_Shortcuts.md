@@ -1,20 +1,18 @@
 # Keyboard Shortcuts 
 
 
-
-
+* Command + R = Run IOS Simulator
 * Command + SHIFT + L = Formulas
-*  Command + N = New page
+* Command + N = New page
 * Option + Click on value = Quick Summary
-*  Command + Click on value = Quick Addition
+* Command + Click on value = Quick Addition
 * Command + / = Comment out selected section
 * Command + click = embed menu
 * Control + Command + Space = Emojis
 * Command -> Inspector = List of modifiers
-   
-* Option + Command + left arrow = Fold
-                
+* Option + Command + left arrow = Fold         
 * Command + Click on function -> Add Documentation
 * Control + Command + Space = Emoji 😶
 * Command + Shift + K = Clean and rebuild
- * Option + Command + P = Restart Canvas
+* Option + Command + P = Restart Canvas
+* Command + SHIFT + L = Fomula Recepies
