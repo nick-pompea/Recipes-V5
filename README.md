@@ -59,9 +59,6 @@
 ## XCode 
   
   * [Keyboard Short Cuts](Xcode/Keyboard_Shortcuts.md)
-  * [MMVM](Organization/MMVM.md)
-
-
 
 
 
