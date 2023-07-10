@@ -258,7 +258,7 @@
   </details>
 
 
-    <details> 
+  <details> 
   <summary>Accessibility</summary>
 
 *	Accessibility Activation Point
@@ -289,7 +289,7 @@
 
   </details>
 
-      <details> 
+  <details> 
   <summary>Events</summary>
 
 *	On Appear
@@ -308,7 +308,7 @@
 
   </details>
 
-      <details> 
+  <details> 
   <summary>Gesture</summary>
 
 *	High Priority Gesture
@@ -317,7 +317,7 @@
 
   </details>
 
-        <details> 
+  <details> 
   <summary>Shapes</summary>
 
 *	Fill
@@ -332,7 +332,7 @@
 
   </details>
 
-        <details> 
+  <details> 
   <summary>Other / Time</summary>
 
 *	Allows Hit Testing
@@ -362,7 +362,7 @@
   </details>
 
 
-          <details> 
+  <details> 
   <summary>@ Decorations</summary>
 
 *	@AppStorage
@@ -378,7 +378,7 @@
   </details>
 
 
-            <details> 
+  <details> 
   <summary>Arrays</summary>
 
   ## Sequence Operations
@@ -457,7 +457,7 @@
 
   </details>
 
-              <details> 
+  <details> 
   <summary>Operations</summary>
 
 *	.reduce
@@ -473,7 +473,7 @@
   </details>
 
 
-                <details> 
+ <details> 
   <summary>Function</summary>
 
 *	newFunc() {}
@@ -497,7 +497,7 @@
   </details>
 
   
-              <details> 
+ <details> 
   <summary>If Variants</summary>
 
   *	switch completion {
