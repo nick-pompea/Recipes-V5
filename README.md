@@ -5,10 +5,8 @@
 ![swiftui-logo](https://github.com/nick-pompea/Recipes-V5/assets/123673749/1da2635c-e3da-4975-a6d7-d1f0605724db)
 
 
-<details>
-  <summary>Basic</summary>
 
-## Basic
+## Basics
 
 * [Alerts](basics/Alerts.md)
 * [Animations](basics/Animations.md)
@@ -45,17 +43,10 @@
 * [Typealias](basics/Typealias.md)
 * [Views](basics/Views.md)
 * [Colors](basics/Colors.md)
-</details>
 
-
-
-
-<details>
-  <summary>Intermediate</summary>
-  
   ## Intermediate
   
-  * [Heap Vs Stack](Intermediate/Struct_vs_Class_vs_Actor.md)
+* [Heap Vs Stack](Intermediate/Struct_vs_Class_vs_Actor.md)
 * [@Escaping](Intermediate/Escaping.md)
 * [Asynchronous Timing](Intermediate/AsynchronousTiming.md)
 * [Geometry Reader](Intermediate/GeometryReader.md)
@@ -65,15 +56,6 @@
 * [Catche](Intermediate/Catche.md)
 
 
-
-</details>
-
-
-
-
-<details>
-  <summary>XCode</summary>
-
 ## XCode 
   
   * [Keyboard Short Cuts](Xcode/Keyboard_Shortcuts.md)
@@ -81,10 +63,6 @@
 
 
 
-  </details>
-
-  <details>
-  <summary>Organization</summary>
 
 
 ## Organization
@@ -92,6 +70,6 @@
   * [MMVM](Organization/MMVM.md)
   * [Cheat Sheets](Organization/CheatSheets.md)
 
-  </details>
+
   
   
