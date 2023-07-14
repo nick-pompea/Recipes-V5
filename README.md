@@ -29,6 +29,7 @@
 * [Long Press Gesture](basics/Gesture.md)
 * [Mask](Intermediate/Mask.md)
 * [Navigation](basics/Navigation.md)
+* [Operators](basics/Operators.md)
 * [onAppear and onDisappear](basics/onAppear_and_onDisappear.md)
 * [Play Sound](Sounds/PlaySound.md)
 * [Positioning](basics/Positioning.md)
