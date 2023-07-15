@@ -68,7 +68,10 @@ Guard Let
 * [Youtube Tutorial](https://www.youtube.com/watch?v=wmQIl0O9HBY&t=0s)
 
 ---
-if let
+
+| if let | ![Screenshot 2023-07-15 at 12 02 16 PM](https://github.com/nick-pompea/Recipes-V5/assets/123673749/4f31ec2c-8dd3-47c8-b856-9feeea268b9a) | 
+| --- | --- | 
+
 ```swift
 if let text = displayText {
 Text(text)
@@ -76,7 +79,9 @@ Text(text)
 ```
 ---
 
-Switch
+| Switch | ![Screenshot 2023-07-15 at 12 03 14 PM](https://github.com/nick-pompea/Recipes-V5/assets/123673749/ac2cc667-0387-4877-b2ff-64a2ff828ff0) | 
+| --- | --- | 
+
 ```swift
         switch alertsEnum{
         case .error:
@@ -88,7 +93,11 @@ Switch
         }
 ```
 ---
-do catch
+
+
+| do catch | ![Screenshot 2023-07-15 at 12 01 18 PM](https://github.com/nick-pompea/Recipes-V5/assets/123673749/a7b90428-750c-424f-aa9a-6cce9bb1b253) | 
+| --- | --- |
+
 ```swift
 do {
         // Code
