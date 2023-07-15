@@ -1,6 +1,10 @@
 # Control Flow
 
-if 
+
+
+| if | ![Screenshot 2023-07-15 at 11 54 34 AM](https://github.com/nick-pompea/Recipes-V5/assets/123673749/dfaf3bdb-65bc-435e-9be9-207dcbd6443e) | 
+| --- | --- | 
+
 ```swift
 @State var isLoading: Bool = false
 ---
@@ -23,11 +27,20 @@ MainView()
 
 ---
 
-Ternary Operator
+| Ternary Operator | ![Screenshot 2023-07-15 at 11 57 37 AM](https://github.com/nick-pompea/Recipes-V5/assets/123673749/5949eca3-c046-46b8-af9c-d58c508ee015) | 
+| --- | ----------- |
+
+
+
+
 ```swift
 Color(isLoading ? Color.black : Color.red)
 ```
 [Youtube Tutorial](https://www.youtube.com/watch?v=xzFSOdpxy-o&t=0s)
+
+---
+
+
 
 Guard
 * https://www.programiz.com/swift-programming/guard-statement
