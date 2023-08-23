@@ -9,9 +9,9 @@ Text("Hello")
 ## TextField
 
 ```swift
-@State var textFeild: String = ""
+@State var textField: String = ""
 
-TextField("Type here ...", text: $textFeild)
+TextField("Type here ...", text: $textField)
 ```
 
 Modifiers
