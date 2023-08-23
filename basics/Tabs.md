@@ -3,21 +3,28 @@
 
 
 ```swift
+  struct ContentView: View {
+    @State private var selectedTab = "One"
+    
+    var body: some View {
         TabView(selection: $selectedTab) {
-            HomeView(selectedTab: $selectedTab)
+            Text("Tab 1")
+                .onTapGesture {
+                    selectedTab = "Two"
+                }
                 .tabItem {
-                Image(systemName: "house.fill")
-                Text("Home")
-                }.tag(0)
-            Text("Browse Tab").tabItem {
-                Image(systemName: "globe")
-                Text("Browse")
-            }.tag(1)
-            Text("Profile Tab").tabItem {
-                Image(systemName: "person.fill")
-                Text("Profile")
-            }.tag(2)
+                    Label("One", systemImage: "star")
+                }
+                .tag("One")
+
+            Text("Tab 2")
+                .tabItem {
+                    Label("Two", systemImage: "circle")
+                }
+                .tag("Two")
         }
+    }
+}
         
         // For loop
         
