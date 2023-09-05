@@ -67,7 +67,7 @@
   * [Dictionary of Terms](Organization/Dictionary.md)
   * [MMVM](Organization/MMVM.md)
   * [Cheat Sheets](Organization/CheatSheets.md)
-  * [Design Principles](Organization/DesignPrinciples877fabe6476e4fd58a77cb34d5af4009.md)
+  * [Design Principles](Organization/DesignPrinciples.md)
 
 
 
