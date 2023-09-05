@@ -1,4 +1,5 @@
 # Design Principles
+<img width="555" alt="Screenshot 2023-09-04 at 11 08 07 PM" src="https://github.com/nick-pompea/Recipes-V5/assets/123673749/f346520c-d2fa-43cc-ab6a-c4e4184cb77f">
 
 ## Aesthetic-Usability Effect
 
